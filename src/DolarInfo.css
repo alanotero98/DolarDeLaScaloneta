@@ -1,0 +1,55 @@
+/* DolarInfo.css */
+body {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white; /* Color del texto blanco */
+    letter-spacing: 0.5px;
+  }
+.dolar-info-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .fondo-gif {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('./img/gif.gif') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+  }
+  
+  
+  .foto-testa {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .descripcion {
+    background-color: rgba(0, 0, 0, 0.196); 
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #fafaf9;
+    max-width: 300px;
+  }
+  
+  .dolar-content {
+    text-align: left;
+    max-width: 400px;
+  }
+
+  @media (max-width: 768px) {
+    /* Estilos para dispositivos móviles */
+    .dolar-info-container {
+      padding: 20px; /* Agrega espacio alrededor del contenido en dispositivos móviles */
+    }
+  }
