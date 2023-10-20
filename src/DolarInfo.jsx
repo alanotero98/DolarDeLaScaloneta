@@ -25,14 +25,14 @@ const DolarInfo = () => {
       <div className="fondo-gif" />
       <img className="foto-testa" src={dolar} alt="Tu Foto" />
       <p className="descripcion">
-        ¡Hola! Soy Testa un tipo muy Kpo en finanzas y estoy aquí para contarte las últimas actualizaciones del dólar blue hoy:
+        ¡Hola! Soy Testa un tipo muy Kpo en finanzas y en penes, estoy aquí para contarte las últimas actualizaciones del dólar blue:
       </p>
       {dolarInfo ? (
         <div className="dolar-content">
           <h2>Dólar Blue</h2>
           <p>Información actualizada: {dolarInfo.fechaActualizacion}</p>
-          <p>Compra: {dolarInfo.compra}</p>
-          <p>Venta: {dolarInfo.venta}</p>
+          <p>Compra: ${dolarInfo.compra}</p>
+          <p>Venta: ${dolarInfo.venta}</p>
         </div>
       ) : (
         <p>Cargando información...</p>
