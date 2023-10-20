@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/DolarDeLaScaloneta/static/css/main.ec2f3685.css",
+    "main.js": "/DolarDeLaScaloneta/static/js/main.a190a19e.js",
+    "static/js/787.f0777406.chunk.js": "/DolarDeLaScaloneta/static/js/787.f0777406.chunk.js",
+    "static/media/gif.gif": "/DolarDeLaScaloneta/static/media/gif.269fafa98bd0d5c92d23.gif",
+    "static/media/dolar.jpg": "/DolarDeLaScaloneta/static/media/dolar.ab8c486aee717e61fe82.jpg",
+    "index.html": "/DolarDeLaScaloneta/index.html",
+    "main.ec2f3685.css.map": "/DolarDeLaScaloneta/static/css/main.ec2f3685.css.map",
+    "main.a190a19e.js.map": "/DolarDeLaScaloneta/static/js/main.a190a19e.js.map",
+    "787.f0777406.chunk.js.map": "/DolarDeLaScaloneta/static/js/787.f0777406.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec2f3685.css",
+    "static/js/main.a190a19e.js"
+  ]
+}
