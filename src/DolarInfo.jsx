@@ -25,7 +25,7 @@ const DolarInfo = () => {
       <div className="fondo-gif" />
       <img className="foto-testa" src={dolar} alt="Tu Foto" />
       <p className="descripcion">
-        ¡Hola! Soy Testac un tipo muy Kpo en finanzas y estoy aquí para contarte las últimas actualizaciones del dólar blue hoy:
+        ¡Hola! Soy Testa un tipo muy Kpo en finanzas y estoy aquí para contarte las últimas actualizaciones del dólar blue hoy:
       </p>
       {dolarInfo ? (
         <div className="dolar-content">
