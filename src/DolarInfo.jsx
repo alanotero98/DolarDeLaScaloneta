@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import dolar from './img/dolar.jpg';
 import './DolarInfo.css';
 
+
 const DolarInfo = () => {
   const [dolarInfo, setDolarInfo] = useState(null);
 
